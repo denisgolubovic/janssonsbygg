@@ -1,0 +1,43 @@
+.navbar.navbar-default {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 0;
+	padding-top: 1%;
+	position:top;
+	width: 90%;
+	background-color: #fff;
+}
+.nav.navbar-nav li a {
+	font-size: 160%;
+	font-family: 'Poiret One', cursive;
+	font-weight: 600;
+}
+
+#nav-logga{
+	width:200px; 
+	height:auto;
+	position:relative;
+	bottom: 7px;		
+}
+
+.navbar-default{
+margin-bottom:0%;
+}
+
+.background-color-panel{
+	background-color: #f0f0f5;
+	width:100%;
+}
+
+
+#navbar-rubrik-header{
+	font-family: 'Poiret One', cursive;
+	font-weight: 600;
+}
+
+
+
+html, body { 
+height: 100%;
+width: 100%; 
+}

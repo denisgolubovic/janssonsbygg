@@ -1,0 +1,30 @@
+#feat-heading{
+		font-family: 'Poiret One', cursive;
+		font-weight: 200;
+		color: #880000;
+		font-size: 370%;
+}
+
+#featurettes{
+	width:90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#images{
+	width:250px; 
+	height:auto;
+}
+
+#feat-text{
+font-family: 'Dosis', sans-serif;
+	font-weight: 400;
+	font-size: 22px;
+}
+
+.hvr-float-shadow:hover{
+}
+
+.hvr-shadow-radial{
+box-shadow:0 0 1px rgba(123,32,132,123);
+}

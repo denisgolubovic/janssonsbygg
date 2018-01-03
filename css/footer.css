@@ -1,0 +1,92 @@
+.footer-container{
+	width:90%;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.footer-email-container{
+	padding-top: 3%;
+	width:100%;
+}
+
+.footer-contact-container{
+	padding-top: 2%;
+
+}
+
+.footer-glyphicons-container{
+	padding-top: 4%;
+	border-top: 500px;
+	border-top-width: 20px;
+	border-color: black;
+	padding-bottom: 4%;
+}
+
+#nav-footer {
+	margin-bottom: 0;
+	padding-bottom: 0;
+	margin-top: 7%;
+	width:100%;
+}
+
+.btn-default{
+	background-color: #880000;
+	color: #fff;
+	font-family: 'Poiret One', cursive;
+}
+
+.btn-default:focus, .btn-default:hover, .btn-default:active{
+	color: #880000;
+}
+
+#footer-mail{
+	color: #fff;
+	background-color: #000;
+}
+
+.hvr-fade:hover{
+	background-color: #fff;
+}
+
+
+#tel-nr-footer{
+	padding-right: 25%;
+}
+
+#ftg-namn-footer{
+	padding-left: 20%;
+}
+
+#contact-text{
+	font-family: 'Poiret One', cursive;
+	font-weight: 600;
+}
+
+.btn-xl {
+    padding: 18px 28px;
+    font-size: 22px;
+    border-radius: 8px;
+}
+
+#border{
+	border-bottom: 1px solid #000;
+	width: 60%;
+	margin-top: 2%; 
+}
+
+.btn-instagram{
+	color: #880000;
+}
+
+.btn-facebook{
+	color: #880000;
+}
+
+.btn-twitter{
+	color: #880000;
+}
+
+#footer-row{
+	width:100%;
+}
+

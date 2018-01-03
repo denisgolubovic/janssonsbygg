@@ -1,0 +1,24 @@
+#omoss-text{
+
+}
+
+
+#omoss-text{
+	font-family: 'Dosis', sans-serif;
+	font-weight: 500;
+	font-size: 17px;
+}
+
+#omoss-bild{
+	width:450px;
+	height: auto;
+	margin-top:15%;
+
+}
+
+#omoss-image-text{
+	font-family: 'Dosis', sans-serif;
+	font-weight: 500;
+	font-size: 20px;
+	margin-top:2%;
+}
