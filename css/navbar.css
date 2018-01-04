@@ -14,10 +14,10 @@
 }
 
 #nav-logga{
-	width:200px; 
+	width:200px;
 	height:auto;
 	position:relative;
-	bottom: 7px;		
+	bottom: 7px;
 }
 
 .navbar-default{
@@ -35,9 +35,17 @@ margin-bottom:0%;
 	font-weight: 600;
 }
 
+@media (max-width:992px) {
+	#nav-logga{
+		padding-top: 5%;
+		width:200px;
+		height:auto;
+		position:relative;
+		bottom: 7px;
+	}
+}
 
-
-html, body { 
+html, body {
 height: 100%;
-width: 100%; 
+width: 100%;
 }
