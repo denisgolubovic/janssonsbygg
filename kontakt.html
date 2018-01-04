@@ -55,16 +55,65 @@
 
 
 <div class="container">
-	<div id="rot-text">
-	<h1 align="left" id="navbar-rubrik-header"> ROT </h1>
-	<p align="left" id="rot-text">Du kan få göra avdrag från din skatt för arbetskostnaden när du anlitar någon för reparation, underhåll samt om- och tillbyggnad (rot) </p>
-  <h2 align="left" id="navbar-rubrik-header"> Såhär fungerar rotavdraget </h2>
-  <p align="left" id="rot-text">Du som köper rottjänster ansöker inte själv om rotavdraget. Det gör den som utfört arbetet. Hen drar av en del
-    av arbetskostnaden på fakturan till dig. Rotavdraget räknas ihop och är sammanlagt max 50 000 kronor per person och år. Om du kan ta del av avdraget eller
-    inte beror på hur mycket skatt du har betalat in under året och vilka andra avdrag du gjort. För mer information kring rotavdraget kan du läsa på
-    <a href="https://www.skatteverket.se/privat/fastigheterochbostad/rotochrutarbete.4.2e56d4ba1202f95012080002966.html">Skatteverkets hemsida</a>.</p>
-	</div>
-</div>
+	<form id="contact-form" method="post" action="contact.php" role="form">
+
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">Förnamn *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Fyll i ditt förnamn *" required=""
+                    oninvalid="this.setCustomValidity('Var vänlig fyll i ett giltigt namn')" oninput="setCustomValidity('')" data-error="Förnamn är obligatoriskt.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Efternamn *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Fyll i ditt efternamn *" required="required" data-error="Efternamn är obligatoriskt.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Fyll i din email-address *" required="required" data-error="Giltig email-address är obligatoriskt.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_phone">Telefon</label>
+                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Fyll i ditt telefonnummer">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Meddelande *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Ditt meddelande *" rows="4" required="required" data-error="Skriv ditt meddelande"></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Skicka">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-muted"><strong>*</strong>Obligatoriska fält</p>
+            </div>
+        </div>
+    </div>
+
+</form>
 
 
     <div id="nav-footer" class="navbar navbar-default navbar-bottom">
