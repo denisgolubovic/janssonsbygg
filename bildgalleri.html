@@ -24,13 +24,8 @@
 <link href='https://fonts.googleapis.com/css?family=Dosis:500,400,600,700,800,200,300' rel='stylesheet' type='text/css'>
 <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
 
-    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-    <!--[if lt IE 9]>
-        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
+    <!--Added JS files -->
+    <script src="js/open_modal.js"></script>
 </head>
 
 <body>
@@ -53,6 +48,16 @@
     <!-- Page Content -->
      <div class="container">
 
+   <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+     <div class="modal-dialog">
+       <div class="modal-content">
+         <div class="modal-body">
+         	<button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+           <img src="" class="imagepreview" style="width: 100%;" >
+         </div>
+       </div>
+     </div>
+   </div>
         <div class="row">
 
             <div class="col-lg-12">
@@ -60,61 +65,63 @@
             </div>
 
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-
+              <a class="thumbnail pop" href="#">
+                  <img class="img-responsive" src="images/test1.png" alt="" >
+              </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                <a class="thumbnail pop" href="#">
+                    <img class="img-responsive" src="images/test1.png" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                <a class="thumbnail pop" href="#">
+                    <img class="img-responsive" src="images/test1.png" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                <a class="thumbnail pop" href="#">
+                    <img class="img-responsive" src="images/test1.png" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                <a class="thumbnail pop" href="#">
+                    <img class="img-responsive" src="images/test1.png" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                <a class="thumbnail pop" href="#">
+                    <img class="img-responsive" src="images/test1.png" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                  <a class="thumbnail pop" href="#">
+                    <img class="img-responsive" src="images/test1.png" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                <a class="thumbnail pop" href="#">
+                    <img class="img-responsive" src="images/test1.png" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                <a class="thumbnail pop" href="#">
+                    <img class="img-responsive" src="images/test1.png" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                <a class="thumbnail pop" href="#">
+                    <img class="img-responsive" src="images/test4.png" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                <a class="thumbnail pop" href="#">
+                    <img class="img-responsive" src="images/test3.png" alt="">
                 </a>
             </div>
             <div class="col-lg-3 col-md-4 col-xs-6 thumb">
-                <a class="thumbnail" href="#">
-                    <img class="img-responsive" src="http://placehold.it/400x300" alt="">
+                  <a class="thumbnail pop" href="#">
+                    <img class="img-responsive" src="images/test2.png" alt="">
                 </a>
             </div>
         </div>
@@ -153,7 +160,6 @@
     </div></center>
 
     <!-- Bootstrap Core JavaScript -->
-
     <script src="bootstrap/dist/js/jquery-3.1.0.js"></script>
     <script src="bootstrap/dist/js/bootstrap.min.js"></script>
      <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
