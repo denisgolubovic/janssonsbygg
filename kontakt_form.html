@@ -55,17 +55,65 @@
 
 
 <div class="container">
-	<div id="rot-text">
-	<h1 align="left" id="navbar-rubrik-header"> KONTAKT </h1>
-	<p align="left" id="rot-text">Kontakta mig med er förfrågan så svarar jag så snabbt jag kan</p>
- <h3 align="left"> Kontaktuppgifter</h3>
-  <p align="left" style="font-weight:bold">
-  Janssons bygg i Jönköping AB </br>
-  0761-95 40 10 </br>
-  Janssonsbygg@outlook.com </p>
+	<form id="contact-form" method="post" action="contact.php" role="form">
 
-	</div>
-</div>
+    <div class="messages"></div>
+
+    <div class="controls">
+
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_name">Förnamn *</label>
+                    <input id="form_name" type="text" name="name" class="form-control" placeholder="Fyll i ditt förnamn *" required=""
+                    oninvalid="this.setCustomValidity('Var vänlig fyll i ett giltigt namn')" oninput="setCustomValidity('')" data-error="Förnamn är obligatoriskt.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_lastname">Efternamn *</label>
+                    <input id="form_lastname" type="text" name="surname" class="form-control" placeholder="Fyll i ditt efternamn *" required="required" data-error="Efternamn är obligatoriskt.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_email">Email *</label>
+                    <input id="form_email" type="email" name="email" class="form-control" placeholder="Fyll i din email-address *" required="required" data-error="Giltig email-address är obligatoriskt.">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="form-group">
+                    <label for="form_phone">Telefon</label>
+                    <input id="form_phone" type="tel" name="phone" class="form-control" placeholder="Fyll i ditt telefonnummer">
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="form-group">
+                    <label for="form_message">Meddelande *</label>
+                    <textarea id="form_message" name="message" class="form-control" placeholder="Ditt meddelande *" rows="4" required="required" data-error="Skriv ditt meddelande"></textarea>
+                    <div class="help-block with-errors"></div>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <input type="submit" class="btn btn-success btn-send" value="Skicka">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12">
+                <p class="text-muted"><strong>*</strong>Obligatoriska fält</p>
+            </div>
+        </div>
+    </div>
+
+</form>
 
 
     <div id="nav-footer" class="navbar navbar-default navbar-bottom">
